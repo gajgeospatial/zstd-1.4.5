@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Development/op3d_active/zstd-1.4.5/build/cmake/CMakeModules/FindLibLZ4.cmake
+C:/Development/op3d_active/zstd-1.4.5/build/cmake/programs/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.14/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindLibLZMA.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.14/Modules/FindZLIB.cmake

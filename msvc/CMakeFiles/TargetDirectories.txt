@@ -1,0 +1,12 @@
+C:/Development/op3d_active/zstd-1.4.5/msvc/CMakeFiles/INSTALL.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/CMakeFiles/clean-all.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/CMakeFiles/ALL_BUILD.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/CMakeFiles/ZERO_CHECK.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/lib/CMakeFiles/uninstall.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/lib/CMakeFiles/libzstd_shared.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/lib/CMakeFiles/libzstd_static.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/lib/CMakeFiles/INSTALL.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/lib/CMakeFiles/ALL_BUILD.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/programs/CMakeFiles/zstd.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/programs/CMakeFiles/INSTALL.dir
+C:/Development/op3d_active/zstd-1.4.5/msvc/programs/CMakeFiles/ALL_BUILD.dir
