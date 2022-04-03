@@ -20,3 +20,9 @@ msvc/src/osgPlugins/cfg/osgdb_cfg.vcxproj.user
 msvc/src/osgPlugins/fbx/osgdb_fbx.vcxproj.user
 msvc_applications-examples/examples/osgviewerFLTK/example_osgviewerFLTK.vcxproj.user
 msvc/src/osgPlugins/dw/osgdb_dw.vcxproj.user
+msvc/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin
+msvc/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin
+msvc/CMakeFiles/3.14.3/CompilerIdC/CompilerIdC.exe
+msvc/CMakeFiles/3.14.3/CompilerIdCXX/CompilerIdCXX.exe
+msvc/CMakeFiles/CMakeOutput.log
+msvc/CMakeFiles/feature_tests.bin
