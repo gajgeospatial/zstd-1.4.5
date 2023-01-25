@@ -1,1 +1,0 @@
-This project should be installed as ZSTD_DIR with ProjectTool.
