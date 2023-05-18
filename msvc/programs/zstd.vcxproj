@@ -87,7 +87,7 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zstd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">zstd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">zstd</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">zstd</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Debug|x64'">zstdapp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Debug|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Debug|x64'">.exe</TargetExt>
@@ -111,7 +111,7 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zstd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">zstd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">zstd</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">zstd</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='vs2022_Release|x64'">zstdapp</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2017_Release|x64'">.exe</TargetExt>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='vs2019_Release|x64'">.exe</TargetExt>
@@ -276,7 +276,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;_UNICODE;UNICODE;ZSTD_MULTITHREAD;ZSTD_GZCOMPRESS;ZSTD_GZDECOMPRESS;ZSTD_LZMACOMPRESS;ZSTD_LZMADECOMPRESS;ZSTD_LZ4COMPRESS;ZSTD_LZ4DECOMPRESS;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_UNICODE;UNICODE;ZSTD_MULTITHREAD;ZSTD_GZCOMPRESS;ZSTD_GZDECOMPRESS;ZSTD_LZMACOMPRESS;ZSTD_LZMADECOMPRESS;ZSTD_LZ4COMPRESS;ZSTD_LZ4DECOMPRESS;XXH_NAMESPACE=ZSTD_;ZSTD_LEGACY_SUPPORT=0;CMAKE_INTDIR="Debug";ZSTD_DLL_EXPORT=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
@@ -297,7 +297,7 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>$(OutDir)zstd.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)zstdapp.lib</ImportLibrary>
       <ProgramDataBaseFile>$(OutDir)$(TargetName).pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
